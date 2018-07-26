@@ -81,8 +81,8 @@ def ingredients(perfect_10_recipe)
   :olive_oil => "1/2 cup",
   :agave => "1/4 cup"
 }
-  perfect_10_recipe.each_key{ |key| puts key}
-end
+  # perfect_10_recipe.each_key{ |key| puts key}
+ 
 
 #5: Now use `puts` to print out just the amounts without the ingredients. You'll want to use the `each_value` method.
 def amounts(perfect_10_recipe)
